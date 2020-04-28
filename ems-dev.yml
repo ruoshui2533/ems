@@ -1,1 +1,2 @@
-
+eureka:
+  defaultZone: http://localhost:8000/eureka
