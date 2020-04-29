@@ -4,4 +4,4 @@ spring:
     username: root
     password: root
 oauth:
-  signingkey: whut
+  key: whut
