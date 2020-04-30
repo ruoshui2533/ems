@@ -1,9 +1,9 @@
 server:
   port: 9999
 
-zuul:
-  sensitiveHeaders: Cookie,Set-Cookie
-  routes:
-    oauth:
-      path: oauth/**
-      url: http://localhost:6000/oauth
+# zuul:
+#   sensitiveHeaders: Cookie,Set-Cookie
+#   routes:
+#     oauth:
+#       path: oauth/**
+#       url: http://localhost:6000/oauth
