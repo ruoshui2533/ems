@@ -1,0 +1,5 @@
+server:
+  port: 9999
+
+zuul:
+  sensitive-headers: Cookie,Set-Cookie
