@@ -3,3 +3,7 @@ server:
 
 zuul:
   sensitiveHeaders: Cookie,Set-Cookie
+  routes:
+    oauth:
+      path: oauth/**
+      url: http://localhost:6000/oauth
